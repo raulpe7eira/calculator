@@ -63,7 +63,7 @@ Acesse => *[https://calculator-rp.herokuapp.com/](https://calculator-rp.herokuap
 
 #### Testes
 
-**[Jest](https://facebook.github.io/jest/)**: Era a ferramenta instalada como padrão do ambiente React criado pelo [Create React App](https://github.com/facebookincubator/create-react-app), fiz apenas 4 testes, para verificar como funciona mas esta longe de cobrir todo código escrito.
+**[Jest](https://facebook.github.io/jest/)**: Era a ferramenta instalada como padrão do ambiente React criado pelo [Create React App](https://github.com/facebookincubator/create-react-app), fiz apenas 4 testes, para verificar como funciona, mas está longe de cobrir todo código escrito.
 
 ![cov-scshot](../master/scshot/cov-scshot.png)
 
@@ -73,7 +73,7 @@ Acesse => *[https://calculator-rp.herokuapp.com/](https://calculator-rp.herokuap
 
 ## Conclusão
 
-Tinha pouco tempo para me dedicar ao desafio, escolhi usar o desafio para estudar [React](https://facebook.github.io/react/), pois não havia tido contato até então, todo a solução foi baseada no [Live Coding](https://youtu.be/ZtU7Mhf9vN8) apresentado por [Michael Jackson](https://twitter.com/mjackson), isso poupo um tempo danado para criação do [CSS](https://w3.org/Style/CSS/), que utiliza o modo de layout Flexbox para determinar a localização de cada componente no página. Estruturei o código em pacotes separados e não num arquivo só como apresentado no vídeo, assim a manutenção fica melhor, porém ainda da para estruturar mais o código, pois o javascript principal ([Calculator.js](../master/src/components/Calculator/Calculator.js)) ainda esta bem grande e com muita responsabilidade. Utilizar o command pattern deve ser um caminho, isso vai facilitar o teste também.
+Tinha pouco tempo para me dedicar ao desafio, escolhi usar o desafio para estudar [React](https://facebook.github.io/react/), pois não havia tido contato até então, todo a solução foi baseada no [Live Coding](https://youtu.be/ZtU7Mhf9vN8) apresentado por [Michael Jackson](https://twitter.com/mjackson), isso poupou um tempo considerável para criação do [CSS](https://w3.org/Style/CSS/), que utiliza o Flexbox, modo layout, para determinar a localização de cada componente no página. Estruturei o código em pacotes separados e não em um arquivo só como apresentado no vídeo, assim a manutenção fica melhor, porém ainda da para estruturar mais o código, pois o javascript principal ([Calculator.js](../master/src/components/Calculator/Calculator.js)) ainda esta bem grande e com muita responsabilidade. Utilizar o command pattern deve ser um caminho, isso vai facilitar o teste também.
 
 Gostei muito de conhecer o tão famoso [React](https://facebook.github.io/react/), vou estudar mais sobre todo seu ecossistema, mas o pouco que vi já foi bem gratificante, sem dúvida resolve muita coisa que antes dava um belo trabalho.
 
