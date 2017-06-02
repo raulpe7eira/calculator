@@ -6,3 +6,5 @@ it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<Display value={'7'} />, div);
 });
+
+// TODO: test more scenarios.

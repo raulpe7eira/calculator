@@ -6,3 +6,5 @@ it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<AutoScalingText />, div);
 });
+
+// TODO: test more scenarios.

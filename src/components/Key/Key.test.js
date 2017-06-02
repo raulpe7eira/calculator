@@ -6,3 +6,5 @@ it('renders without crashing', () => {
   const button = document.createElement('button');
   ReactDOM.render(<Key />, button);
 });
+
+// TODO: test more scenarios.

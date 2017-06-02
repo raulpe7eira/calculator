@@ -6,3 +6,5 @@ it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<Calculator />, div);
 });
+
+// TODO: test more scenarios.
